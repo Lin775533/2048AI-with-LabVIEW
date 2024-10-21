@@ -220,6 +220,8 @@ The LabVIEW VI (Virtual Instrument) acts as the main entry point for the applica
 
 ## Process Flow
 Here's a high-level flow chart of the game process:
+## Process Flow
+```mermaid
 graph TD
     A[Start Game] --> B[Initialize Game Board]
     B --> C[LabVIEW: Display Board]
@@ -232,6 +234,7 @@ graph TD
     I --> D
     D -->|Yes| J[End Game]
     J --> K[LabVIEW: Display Final Score]
+```
 
 This flow chart illustrates the interaction between the LabVIEW frontend and the Python backend, showing how the game state is managed and updated throughout the gameplay.
 
