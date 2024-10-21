@@ -1,0 +1,4 @@
+echo *.pyc > .gitignore
+echo __pycache__/ >> .gitignore
+echo .vscode/ >> .gitignore
+echo *.log >> .gitignore
