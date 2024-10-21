@@ -1,1 +1,11 @@
-"*.vi linguist-language=LabVIEW" 
+# LabVIEW files
+*.vi binary
+*.vit binary
+*.vim binary
+*.llb binary
+
+# Mark as LabVIEW for statistics
+*.vi linguist-language=LabVIEW
+*.vit linguist-language=LabVIEW
+*.vim linguist-language=LabVIEW
+*.llb linguist-language=LabVIEW
