@@ -17,7 +17,7 @@
 This project implements an AI agent to play the popular 2048 game. It combines a Python backend for game logic and AI decision-making with a LabVIEW frontend for visualization and user interaction.
 
 ## Project Overview
-The 2048 game is played on a 4x4 grid where the player combines tiles with the same number to create a tile with the sum of their values. The goal is to create a tile with the value 2048. This project automates the gameplay using an AI algorithm to make optimal moves.
+The 2048 game is played on a 4x4 grid where the player combines tiles with the same number to create a tile with the sum of their values. The goal is to create a tile with the value 2048. This program features a dual-gameboard setup, allowing interactive gameplay between two players: Player 1 (human-controlled), and Player 2 (togglable between human and AI control). Users can compete with the AI or another person to reach the highest score.
 
 ## Components
 1. **Python Backend:**
@@ -247,7 +247,7 @@ This flow chart illustrates the interaction between the LabVIEW frontend and the
 
 ## Setup and Installation
 1. Ensure you have Python installed (version 3.6 or higher recommended)
-2. Install LabVIEW (version X.X or higher)
+2. Install LabVIEW (version 22.5 or higher)
 3. Install required Python libraries:
    ```
    pip install tkinter
