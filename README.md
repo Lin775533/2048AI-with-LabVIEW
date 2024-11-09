@@ -258,10 +258,11 @@ This flow chart illustrates the interaction between the LabVIEW frontend and the
 ## Usage
 1. Launch the LabVIEW VI (2048_Game_AI.vi)
 2. Click the "Start Game" button on the LabVIEW front panel
-3. The game will begin with the AI making moves automatically
-4. Observe the game progress, score, and AI decisions on the LabVIEW interface
-5. The game ends when 2048 is reached or no more moves are possible
-6. Use the "New Game" button to start a fresh game, or "Exit" to close the application
+3. Two game boards will appear for Player 1 (human-controlled) and Player 2 (toggleable between human and AI control)
+4. Make moves for Player 1 manually, while Player 2 follows the selected control mode
+5. Observe each player's score and progress on the LabVIEW interface
+6. The game ends when 2048 is reached or no more moves are possible
+7. Use the "New Game" button to start a fresh game, or "Exit" to close the application
 
 ## Future Improvements
 1. Implement a user-playable mode alongside the AI
